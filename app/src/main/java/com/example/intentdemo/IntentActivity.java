@@ -70,7 +70,7 @@ public class IntentActivity extends Activity {
 
 	public void doExplicitBarcode(View view) {
 		//note you have to install the zxing barcode scanner on your device
-		//to have the following not error out
+		//to have the following not error out, or...
 
 		Intent myIntent = new Intent("com.google.zxing.client.android.SCAN");
 		myIntent.putExtra("SCAN_MODE", "QR_CODE_MODE");
@@ -78,8 +78,10 @@ public class IntentActivity extends Activity {
 		//Check before you willy nilly launch something that may not be there
 		if (isAvailable(this, myIntent))
 			startActivityForResult(myIntent, ID_DO_EXPLICIT_BARCODE_ZXING);
-		else
-			Toast.makeText(this, "zxing aint there", Toast.LENGTH_SHORT).show();
+		else {
+			Log.d(TAG, "doExplicitBarcode: zxing aint there ");
+			Toast.makeText(IntentActivity.this, "zxing aint there", Toast.LENGTH_SHORT).show();
+		}
 	}
 
 	public void doLaunchCommsApp(View v) {
@@ -94,13 +96,11 @@ public class IntentActivity extends Activity {
 	public void doLaunchCustomAction(View v) {
 
 		Intent myIntent = new Intent("com.example.custom_intent.YOUR_ACTION");
-
 		if (myIntent.resolveActivity(getPackageManager()) == null) {
 			// Error occurred while creating the File
 			Toast.makeText(this, "INSTALL 4_CustomIntent_and_BogusEmail_App FIRST", Toast.LENGTH_SHORT).show();
 			return;
 		}
-
 		startActivity(myIntent);
 	}
 
@@ -125,6 +125,7 @@ public class IntentActivity extends Activity {
 			}
 
 			//make file where image will be stored
+			//returns true if successfully created, false if already there
 			imagefile.createNewFile();
 
 			// Save a file: path for use with ACTION_VIEW intents
@@ -229,7 +230,6 @@ public class IntentActivity extends Activity {
 		// Decode the image file into a Bitmap sized to fill the View
 		bmOptions.inJustDecodeBounds = false;
 		bmOptions.inSampleSize = scaleFactor;
-		bmOptions.inPurgeable = true;
 
 		Bitmap bitmap = BitmapFactory.decodeFile(mCurrentPhotoPath, bmOptions);
 		image.setImageBitmap(bitmap);
