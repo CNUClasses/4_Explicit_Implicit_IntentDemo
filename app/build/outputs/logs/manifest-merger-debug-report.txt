@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:2:1-41:12
+ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:2:1-40:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] /home/keith/.gradle/caches/transforms-3/1acfe28da0493ccf6d1a66b5e60d8a25/transformed/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] /home/keith/.gradle/caches/transforms-3/7fd4584e9a8d2c8b549d6200fb41477e/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/keith/.gradle/caches/transforms-3/768c0b82e7dc616c5a47d1e9de34f1c3/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -30,9 +30,9 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/keith/.gradle/ca
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/keith/.gradle/caches/transforms-3/4db19e27d8dc3c18a0e11d542a3d656e/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/keith/.gradle/caches/transforms-3/d8a2fa2fab3869b7293d51c10b767260/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/keith/.gradle/caches/transforms-3/fd1b545579ee6fe17065c14f79977cf0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml
@@ -52,7 +52,7 @@ ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/m
 	android:name
 		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:7:22-77
 application
-ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:10:5-39:19
+ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:9:5-38:19
 MERGED from [androidx.core:core:1.0.0] /home/keith/.gradle/caches/transforms-3/2285b91efe25780c6e7d7713eefa7047/transformed/core-1.0.0/AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.0] /home/keith/.gradle/caches/transforms-3/2285b91efe25780c6e7d7713eefa7047/transformed/core-1.0.0/AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/keith/.gradle/caches/transforms-3/e7f2c7063ba88424ded525892326e30e/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
@@ -60,51 +60,51 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/keith
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] /home/keith/.gradle/caches/transforms-3/2285b91efe25780c6e7d7713eefa7047/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:12:9-41
 	android:icon
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:12:9-45
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:11:9-45
 	android:allowBackup
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:13:9-40
 provider#androidx.core.content.FileProvider
-ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:16:9-24:20
+ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:15:9-23:20
 	android:grantUriPermissions
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:20:13-47
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:19:13-47
 	android:authorities
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:18:13-70
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:17:13-70
 	android:exported
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:19:13-37
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:17:13-62
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:16:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:21:13-23:64
+ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:20:13-22:64
 	android:resource
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:23:17-51
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:22:17-51
 	android:name
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:22:17-67
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:21:17-67
 activity#com.example.intentdemo.SumActivity
-ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:25:9-28:20
+ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:24:9-27:20
 	android:label
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:27:13-45
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:26:13-45
 	android:name
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:26:13-62
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:25:13-62
 activity#com.example.intentdemo.IntentActivity
-ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:29:9-38:20
+ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:28:9-37:20
 	android:label
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:31:13-45
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:30:13-45
 	android:name
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:30:13-65
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:29:13-65
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:32:13-35:29
+ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:31:13-34:29
 action#android.intent.action.MAIN
-ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:33:17-69
+ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:33:25-66
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:34:16-76
+ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:33:16-76
 	android:name
-		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:34:26-73
+		ADDED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml:33:26-73
 uses-sdk
 INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/keith/CPSC475_examples/4_Explicit_Implicit_IntentDemo/app/src/main/AndroidManifest.xml
